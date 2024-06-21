@@ -1,0 +1,113 @@
+    <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Domasna Zadaca</title>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        </head>
+        <body>
+            <!-- Loading Skeleton -->
+            <div class="loading-skeleton">
+                <div class="skeleton-header"></div>
+                <div class="skeleton-main">
+                    <div class="skeleton-img"></div>
+                    <div class="skeleton-text"></div>
+                    <div class="skeleton-text short"></div>
+                </div>
+                <div class="skeleton-section"></div>
+                <div class="skeleton-section"></div>
+                <div class="skeleton-section"></div>
+            </div>
+
+            <header>
+                <img  class="logo" src="antonij-high-resolution-logo-transparent.png" alt="Antonij Lazareski Logo">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="nav-social">
+                <a href="https://www.instagram.com/lazareskiia/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/antonij-lazareski-5841b929b/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/Dark68345">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCl8g9tBlMZ9qWnP6RfyAU-A">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                </div>
+            </header>
+
+            <section class="main-content">
+            <img src="[001954].jpg" alt="Antonij Lazareski">
+            <strong>Hi, I'm Antonij Lazareski</strong>
+            <span>I'm a Computer Science Student</span>
+            <h2>Passionate to create an amazing websites</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed doloremque distinctio repellat sapiente alias, dolor iste corrupti ab. Nostrum veritatis sint esse porro voluptatum voluptas doloremque aut illo voluptatibus vel.</p>
+            </section>
+            
+            <section class="aboutme-hobbies-section">
+            
+                <div class="aboutMe" id="about">
+                    <h2>About Me</h2>
+                    <p>Hello! My name is Antonij Lazareski, and I am a 23-year-old Computer Science student currently in my 5th year at the Faculty of Computer Science and Engineering (FINKI). With a strong passion for technology and problem-solving, I am on the path to becoming a software engineer.
+
+                        Throughout my academic journey, I have developed skills in programming languages such as C,C++,Java,Javascript. My goal is to become a proficient software engineer who can contribute to innovative projects and solve real-world problems. I am eager to continue learning and growing in the tech industry.
+                        
+                        Thank you for taking the time to learn more about me. I look forward to connecting with you!
+                        
+                        Best regards,
+                        Antonij Lazareski.</p>
+                </div>
+                <div class="Hobbies">
+                    <h2>My Hobbies</h2>
+                    <p>Outside of my academic pursuits, I enjoy a variety of hobbies that keep me active and engaged. I regularly go to the gym, which helps me stay fit and focused. I also love playing sports such as basketball, football, and swimming. These activities not only keep me physically active but also teach me valuable lessons in teamwork and discipline.
+
+                        In my free time, I enjoy playing games on my PC. Gaming is a fun way to relax and unwind, and it also enhances my strategic thinking and problem-solving skills.
+                        
+                        These hobbies help me maintain a balanced lifestyle and provide a great way to recharge and stay motivated.</p>
+                </div>
+
+            </section>
+            <section class="contact" id="contact">
+                <div class="container">
+                    <form action="action_page.php">
+                
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="Message">Message</label>
+                    <textarea id="Message" name="Message" placeholder="Message" style="height:200px"></textarea>
+
+                    <button type="button" id="sumbit-button">Sumbit</button>
+                    
+                
+                    </form>
+            </section>
+
+            <footer>
+                <p>&copy; 2024, Antonij Lazaraeski, 196128</p>
+            </footer>
+
+            <script>
+                // Simulate loading
+                window.addEventListener('load', () => {
+                    setTimeout(() => {
+                        document.querySelector('.loading-skeleton').style.display = 'none';
+                    }, 2000); // Adjust time as needed
+                });
+            
+
+            </script>
+        </body>
+        </html>
